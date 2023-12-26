@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The web site of justnextweek</title>
+    <title>Wha Du Hell</title>
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
@@ -25,16 +25,20 @@
 
     <div id="flex">
         <aside id="leftSidebar" style="margin-right: 0px;">
-            <h2>Updates</h2>
+            <h2></h2>
             <div class="box">
-                <p>U FUKIN WUT M8</p>
+                <h2>U FUKIN WUT M8</h2>
                 <ul style="padding-left:10px;">
                 </ul>
             </div>
-            <h2 href="https://melankorin.net/"><img src="https://melankorin.net/assets/img/buttons/button-1.gif" 
+            <h2></h2>
+            <div class="button">
+            <a>h</a>
+            </div>
+            <h2 href="https://melankorin.net/"><img style='border: 3px solid #000000' src="https://melankorin.net/assets/img/buttons/button-1.gif" 
                 width="100%" 
                 height="100%" /></h2>
-            <h2><iframe width="100%" height="100%" style="border:none" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe></h2>            </ul>
+            <h2><iframe width="100%" height="100%" style="border: 3px solid #000000" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe></h2>            </ul>
         </aside>
         <main>
             <h1>Where The Fuck Are We</h1>
@@ -55,9 +59,10 @@ these tended to confuse some people, so I only kept
 the images as variables */
 
     :root {
-        --header-image: url('https://hongkongmfr.org/assets/hatching.png');
-        --body-bg-image: url('https://hongkongmfr.org/assets/hatching.png');
-        --sidebar-bg-image: url('https://hongkongmfr.org/assets/hatching.png');
+        --header-image: url('');
+        --body-bg-image: url('https://hongkongmfr.org/assets/hatchingbg.png');
+        --bg-image: url('https://hongkongmfr.org/assets/hatchingbg.png');
+        --sidebar-image: url('https://hongkongmfr.org/assets/hatching.png');
 
         /* colors */
         --content: #ffffff;
@@ -101,11 +106,12 @@ and then link it! Many fonts have separate files for each style
     body {
         font-family: 'Nunito', sans-serif;
         margin: 0;
-        background-color: #ffffffb2;
+        background-color: #ffffff;
         /* you can delete the line below if you'd prefer to not use an image */
-        background-size: 65px;
+        background-size: 60px;
         color: #fceaff;
         background-image: var(--body-bg-image);
+        background-size: 100%;
     }
 
     * {
@@ -197,8 +203,9 @@ you can add them directly to the <div id="header"></div> element! */
 if you want to style them separately,
 create styles for #leftSidebar and #rightSidebar */
     aside {
-        background-color: ;
+        background-color: #ffffff;
         background-image: var(--sidebar-image);
+        background-size: 275%;
         width: 200px;
         border: 3px solid #000000;
         padding: 20px;
@@ -210,7 +217,7 @@ create styles for #leftSidebar and #rightSidebar */
     /* this is the color of the main content area,
 between the sidebars! */
     main {
-        background-color: #e3e3e3;
+        background-color: #dedede;
         flex: 1;
         padding: 20px;
         border: 3px solid #000000;
@@ -258,9 +265,19 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
 
     /* this is just a cool box, it's the darker colored one */
     .box {
-        background-color: #817a95;
+        background-color: #dedede;
         border: 3px solid #000000;
         padding: 10px;
+    }
+
+    .button {
+        background-color: #dedede;
+        border: 3px solid #000000;
+        padding: 10px;
+    }
+
+    .ads {
+        border: 3px solid #000000;
     }
 
     /* CSS for extras */
