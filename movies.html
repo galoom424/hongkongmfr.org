@@ -106,7 +106,7 @@
 </div>
 </main>
 </div>
-        <footer >biblosphere. 2023 - 20XX | ligma balls</footer>
+        <footer >biblosphere | 2023 - 2024 | ligma balls</footer>
 <style>
     /* user styles */
 
@@ -145,9 +145,19 @@ and then link it! Many fonts have separate files for each style
     }
     
     @font-face {
-        font-family: 'Pixel';
-        src url('https://hongkongmfr.org/pixel-font/Pixel.ttf') format('truetype');
+        font-family: 'Dogica';
+        src: url('https://hongkongmfr.org/pixel-font/dogica.ttf') format('truetype'),
+        src: url('https://hongkongmfr.org/pixel-font/dogica.otf') format('opentype');
+        font-style: normal;
     }
+    
+    @font-face {
+        font-family: 'Dogica';
+        src: url('https://hongkongmfr.org/pixel-font/dogicabold.ttf') format('truetype'),
+        src: url('https://hongkongmfr.org/pixel-font/dogicabold.otf') format('opentype');
+        font-style: bold;
+    }
+
 
     @font-face {
         font-family: 'Nunito';
@@ -329,8 +339,10 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
         width: 100%;
         height: 40px;
         padding: 10px;
+        padding-right: 50px;
         text-align: right;
-        font-family: 'Pixel';
+        font-size: 13px;
+        font-family: 'Avenir';
         /* this centers the footer text */
     }
 
