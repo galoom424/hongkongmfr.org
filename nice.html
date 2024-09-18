@@ -122,7 +122,16 @@ and then link it! Many fonts have separate files for each style
 
 */
 
-
+a:link, a:visited {
+  background-color: ;
+  color: ;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-align: right;
+  font-size: 13px;
+  font-family: 'Avenir';
+}
 
     @font-face {
         font-family: 'Avenir';
@@ -206,7 +215,7 @@ and change the media query according to the comment! */
 EXCEPT for the navigation */
     #container a {
         color: #000000;
-        font-weight: bold;
+        font-weight: ;
         /* if you want to remove the underline
 you can add a line below here that says:
 text-decoration:none; */
@@ -364,11 +373,14 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
     .button {
         background-color: #fffbf0;
         border: 3px solid #000000;
-        padding: 10px;
+        padding: 5px;
+        padding-top: 7px;
         border-top-width: 0;
         margin-bottom: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
     }
-
 
     /* CSS for extras */
 

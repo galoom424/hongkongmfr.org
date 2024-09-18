@@ -70,19 +70,16 @@
         });
       </script>
 </div>
-<!-- box title -->
-    
-<!-- chat -->
-    
-<!-- box title -->
 <div class="sideheader">
     <a style="font-family: Metropolis"><center>ADS? ON MY WEBSITE?<center></center></center></a>
 </div>
-<!-- ads -->
+
 <div class="ads">
 <iframe width="100%" height="100%" style="border: 3px solid #000000; border-right-width: 3; border-top-width: 0; border-bottom-width: 3; border-left-width: 3;" src="https://dimden.neocities.org/navlink/" name="neolink"></iframe>
 </div>
+
 </aside>
+
 <main id="mainSection">
 <!-- main area -->
 <div class="argh"
@@ -299,7 +296,20 @@ you can add them directly to the <div id="header"></div> element! */
         border: 3px solid #000000;
         padding: 10px;
         padding-bottom: 5px;
+        font-size: smaller;
         border-right-width: 0px;
+        /* this makes the sidebar text slightly smaller */
+    }
+
+    aside2 {
+        background-color: ;
+        background-image: var(--sidebar-image);
+        background-size: 230%;
+        width: 250px;
+        border: 3px solid #000000;
+        padding: 10px;
+        font-size: smaller;
+        border-left-width: 0px;
         /* this makes the sidebar text slightly smaller */
     }
 
@@ -354,6 +364,14 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
         /* this centers the footer text */
     }
 
+
+    #topBar {
+        width: 100%;
+        height: 30px;
+        font-size: smaller;
+        background-color: #ffffff;
+    }
+
     h1,
     h2,
     h3 {
@@ -376,6 +394,9 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
         padding: 10px;
         border-top-width: 0;
         margin-bottom: 10px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
     }
 
     .sideheader {
@@ -388,10 +409,12 @@ left sidebar is 1, content is 2, and right sidebar is 3! */
         background-color: #fffbf0;
         border: 3px solid #000000;
         padding: 5px;
+        padding-top: 7px;
         border-top-width: 0;
         margin-bottom: 10px;
-        scrollbar-width: none;
-        -ms-overflow-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
     }
 
 
