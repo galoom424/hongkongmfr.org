@@ -44,6 +44,15 @@ font-size: 13px;
 font-family: 'Avenir';
 }
 
+
+@font-face {
+  font-family: "ms-pgothic-regular";
+  src: url("/fonts/ms-pgothic-regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 body {
   font-family: "ms-pgothic-regular";
   margin: 0;
