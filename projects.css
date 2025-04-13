@@ -122,118 +122,15 @@ and then link it! Many fonts have separate files for each style
 
  
 
+
 @font-face {
- 
-
-        font-family: 'pgothic';
- 
-
-        src: url('https://hongkongmfr.org/pgothic/pgothic.woff') format('woff');
- 
-
-    }
- 
-
-    
- 
-
-    @font-face {
- 
-
-        font-family: 'Dogica';
- 
-
-        src: url('https://hongkongmfr.org/pixel-font/dogica.ttf') format('truetype'),
- 
-
-        src: url('https://hongkongmfr.org/pixel-font/dogica.otf') format('opentype');
- 
-
-        font-style: normal;
- 
-
-    }
- 
-
-    
- 
-
-    @font-face {
- 
-
-        font-family: 'Dogica';
- 
-
-        src: url('https://hongkongmfr.org/pixel-font/dogicabold.ttf') format('truetype'),
- 
-
-        src: url('https://hongkongmfr.org/pixel-font/dogicabold.otf') format('opentype');
- 
-
-        font-style: bold;
- 
-
-    }
- 
-
-
- 
-
-
- 
-
-    @font-face {
- 
-
-        font-family: 'Nunito';
- 
-
-        src: url('https://sadhost.neocities.org/fonts/Nunito-Bold.ttf');
- 
-
-        font-weight: bold;
- 
-
-    }
- 
-
-
- 
-
-    @font-face {
- 
-
-        font-family: 'pgothic';
- 
-
-        src: url('https://hongkongmfr.org/pgothic/pgothic-Black.woff') format('woff');
- 
-
-        font-style: italic;
- 
-
-    }
- 
-
-
- 
-
-    @font-face {
- 
-
-        font-family: 'Nunito';
- 
-
-        src: url('https://sadhost.neocities.org/fonts/Nunito-BoldItalic.ttf');
- 
-
-        font-style: italic;
- 
-
-        font-weight: bold;
- 
-
-    }
+    font-family: "pgothic";
+    src: url("/fonts/ms-pgothic-regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
  
 
 
@@ -242,7 +139,7 @@ and then link it! Many fonts have separate files for each style
     body {
  
 
-        font-family: 'Nunito', sans-serif;
+        font-family: 'pgothic';
  
 
         margin: 0;
