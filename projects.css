@@ -16,7 +16,7 @@
  
         --bg-image: url('/assets/bg.gif');
  
-        --sidebar-image: 
+        --sidebar-image: ;
 
         --content: #000000;
     }
@@ -116,10 +116,6 @@
  
     #flex {
         background-image: url("/assets/bezel.gif");
-
-        --minHeight: 40vh;
-
-        min-height: var(--minHeight);
 
         background-size: 15%;
 
@@ -250,6 +246,8 @@
     }
  
     footer {
+        background-color:none;
+
         width: 100%;
 
         height: 40px;
@@ -265,8 +263,10 @@
         font-family: 'pgothic';
     }
  
+    h1,
+    h2,
     h3 {
-        color: #000000;
+      color: #000000;
     }
  
     h1 {
@@ -278,10 +278,14 @@
     } 
 
     a:link, a:visited {
+        background-color: none;
+
+        color: none;
+
         text-align: center;
-        
+
         text-decoration: none;
-        
+
         display: inline-block;
 
         text-align: right;
