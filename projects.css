@@ -158,6 +158,8 @@
  
     main {
 
+        background-image: url("/assets/bezel.gif");
+
         padding: 10px;
  
         border: 3px solid #000000;
@@ -360,6 +362,7 @@
     }
 
     .containerbox {   
+        background-image: url("/assets/bezel.gif");
 		height: 100%;
         border-bottom:3px solid #000000;
         overflow: hidden;
