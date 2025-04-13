@@ -47,7 +47,7 @@ font-family: 'Avenir';
 
 @font-face {
   font-family: "pgothic";
-  src: url("/fonts/pgothic.ttf") format("ttf");
+  src: url("/fonts/pgothic.woff") format("woff");
   font-weight: normal;
   font-style: normal;
 }
