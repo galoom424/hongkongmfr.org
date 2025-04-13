@@ -44,49 +44,6 @@ font-size: 13px;
 font-family: 'Avenir';
 }
 
-
-@font-face {
-  font-family: "ms-pgothic-regular";
-  src: url("/fonts/ms-pgothic-regularMono-Light.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ms-pgothic-regular";
-  src: url("/fonts/ms-pgothic-regularMono-LightItalic.woff2") format("woff2");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "ms-pgothic-regulars";
-  src: url("/fonts/ms-pgothic-regularMono-Medium.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ms-pgothic-regulars";
-  src: url("/fonts/ms-pgothic-regularMono-MediumItalic.woff2") format("woff2");
-  font-weight: normal;
-  font-style: italic;
-}
-
-@font-face {
-  font-family: "ms-pgothic-regular";
-  src: url("/fonts/ms-pgothic-regularMono-Bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "ms-pgothic-regular";
-  src: url("/fonts/ms-pgothic-regularMono-BoldItalic.woff2") format("woff2");
-  font-weight: bold;
-  font-style: italic;
-}
-
 body {
   font-family: "ms-pgothic-regular";
   margin: 0;
