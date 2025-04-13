@@ -129,6 +129,9 @@
     }
  
     aside {
+
+        background-image: url("/assets/bezel.gif");
+
         background-size: 230%;
  
         width: 280px;
@@ -143,6 +146,9 @@
     }
 
     aside2 {
+
+        background-image: url("/assets/bezel.gif");
+
         background-size: 230%;
  
         width: 215px;
