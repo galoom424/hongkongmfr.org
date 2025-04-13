@@ -46,15 +46,15 @@ font-family: 'Avenir';
 
 
 @font-face {
-  font-family: "ms-pgothic-regular";
-  src: url("/fonts/ms-pgothic-regular.ttf") format("ttf");
+  font-family: "pgothic";
+  src: url("/fonts/pgothic.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 
 body {
-  font-family: "ms-pgothic-regular";
+  font-family: "pgothic";
   margin: 0;
   background-color: #ebeef2;
   /* you can delete the line below if you'd prefer to not use an image */
@@ -217,7 +217,7 @@ footer {
   padding-right: 50px;
   text-align: right;
   font-size: 13px;
-  font-family: 'ms-pgothic-regular';
+  font-family: 'pgothic';
   /* this centers the footer text */
 }
 

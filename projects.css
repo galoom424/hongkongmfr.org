@@ -203,10 +203,10 @@ and then link it! Many fonts have separate files for each style
     @font-face {
  
 
-        font-family: 'ms-pgothic-regular';
+        font-family: 'pgothic';
  
 
-        src: url('https://hongkongmfr.org/ms-pgothic-regular/ms-pgothic-regular-Black.woff') format('woff');
+        src: url('https://hongkongmfr.org/pgothic/pgothic-Black.woff') format('woff');
  
 
         font-style: italic;
