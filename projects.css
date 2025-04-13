@@ -203,10 +203,10 @@ and then link it! Many fonts have separate files for each style
     @font-face {
  
 
-        font-family: 'Metropolis';
+        font-family: 'jetbrains';
  
 
-        src: url('https://hongkongmfr.org/metropolis/Metropolis-Black.woff') format('woff');
+        src: url('https://hongkongmfr.org/jetbrains/jetbrains-Black.woff') format('woff');
  
 
         font-style: italic;
