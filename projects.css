@@ -115,6 +115,8 @@
     }
  
     #flex {
+        background-image: url("/assets/bezel.gif");
+
         background-size: 15%;
 
         justify-content: center;
@@ -163,7 +165,6 @@
     }
  
     main {
-
         background-image: url("/assets/bezel.gif");
 
         padding: 10px;
