@@ -11,11 +11,7 @@
     :root {
         --header-image: url('');
  
-        --body-bg-image: url('/assets/bg.gif');
- 
-        --bg-image: url('/assets/bg.gif');
- 
-        --sidebar-image: ;
+        --bg-image: url('https://hongkongmfr.org/assets/bg.gif');
 
         --content: #000000;
     }
@@ -29,10 +25,12 @@
 
     body {
         font-family: 'pgothic';
+
+        background-image: url('https://hongkongmfr.org/assets/bg.gif');
  
         margin: 0;
  
-        background-size: 60px;
+        background-size: 75px;
  
         color: #000000;
     }
@@ -159,6 +157,8 @@
 
         height: 100%;
 
+        width: 800px;
+
         border: 3px solid #000000;
       }
  
@@ -193,22 +193,15 @@
     }
  
     footer {
-        background-color:none;
-
-        width: 100%;
-
-        height: 40px;
-
         padding: 10px;
-
-        padding-right: 50px;
-
-        text-align: right;
 
         font-size: 13px;
 
+        color: #ffffff;
+
         font-family: 'pgothic';
     }
+
  
     h1,
     h2,
@@ -288,6 +281,16 @@
 
     .sideheader {
         background-color: #f2f2f2fc;
+
+        border: 3px solid #000000;
+
+        padding: 4px;
+    }
+
+    .buttonheader {
+        background-color: #f2f2f2fc;
+
+        border-bottom: 0px;
 
         border: 3px solid #000000;
 

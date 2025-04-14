@@ -15,8 +15,8 @@ the images as variables */
 
 :root {
   --header-image: url('');
-  --body-bg-image: url('/assets/bg.gif');
-  --bg-image: url('/assets/bg.gif');
+  --body-bg-image: url('https://hongkongmfr.org/assets/bg.gif');
+  --bg-image: url('https://hongkongmfr.org/assets/bg.gif');
   --sidebar-image: ;
 
   /* colors */
@@ -60,7 +60,7 @@ body {
   /* you can delete the line below if you'd prefer to not use an image */
   background-size: 60px;
   color: #000000;
-  background-image: url('/assets/bg.gif');
+  background-color: #f67300f2;
   background-size: 7%;
 }
 
