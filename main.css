@@ -174,12 +174,19 @@ aside {
 between the sidebars! */
 main {
   background-color: ;
+
   padding: 10px;
+
   flex: 1;
+
   border: 3px solid #000000;
+
   font-size: smaller;
+
   border-left-width: 0px;
+
   padding-left: 0px;
+  
   padding-bottom: 10px;
 }
 

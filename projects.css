@@ -115,8 +115,6 @@
     }
  
     #flex {
-        background-image: url("/assets/bezel.gif");
-
         background-size: 15%;
 
         justify-content: center;
@@ -326,13 +324,17 @@
         
         padding: 10px;
 
+        padding-top: 29px;
+
 		margin-top: 05px;
 
         height:100%;
-        
-        align-items: center;
-        
+
         justify-content: center;
+
+        align-items: center;
+
+        overflow:hidden;
     }
 
 	.boxRight {    
