@@ -329,7 +329,9 @@
 
         align-items: center;
 
-        overflow:hidden;
+        overflow: hidden;
+
+        line-height: 10px;
     }
 
 	.boxRight {    
