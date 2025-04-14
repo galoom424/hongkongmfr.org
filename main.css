@@ -135,22 +135,6 @@
 
         background-color: #f67300f2;
       }
-
-    aside2 {
-        background-size: 15%;
- 
-        width: 215px;
- 
-        border: 3px solid #000000;
- 
-        padding: 10px;
-
-        padding-bottom: 10px;
-
-        border-right-width: 0px;
-
-        background-color: #f67300f2;
-    }
  
     main {
         background-size: 15%;
@@ -296,37 +280,6 @@
         align-items: center;
 
         overflow:hidden;
-    }
-
-	.boxRight {    
-        background-color: #f2f2f2fc;
-        
-        border: 3px solid #000000;
-        
-        padding: 10px;
-        
-        margin-bottom: 10px;
-        
-        align-items: center;
-        
-        justify-content: center;
-    }
-
-	.boxRight2 {
-        background-color: #f2f2f2fc;
-        
-        border: 3px solid #000000;
-        
-        padding: 10px;
-
-		padding-top: 05px;
-
-        height:100%;
-        
-        align-items: center;
-        
-        justify-content: center;
-
     }
 
     .containerbox {
