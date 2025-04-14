@@ -54,9 +54,12 @@
  
     #container {
         max-width: 1000px;
-
+        /* this is the width of your layout! */
+        /* if you change the above value, scroll to the bottom
+      and change the media query according to the comment! */
         margin: 0 auto;
-    }
+        /* this centers the entire page */
+      }
 
     #container a {
         color: #000000;
@@ -64,6 +67,8 @@
  
     #header {
         width: 100%;
+
+        background-color: none;
  
         height: 150px;
  
@@ -117,21 +122,10 @@
     #flex {
         background-size: 15%;
 
-        justify-content: center;
-
-        align-items: stretch;
-
         display: flex;
-
-        overflow: hidden;
-
-        overflow-wrap: break-word;
     }
  
     aside {
-
-        background-image: url("/assets/bezel.gif");
-
         background-size: 15%;
  
         width: 280px;
@@ -146,9 +140,6 @@
     }
 
     aside2 {
-
-        background-image: url("/assets/bezel.gif");
-
         background-size: 15%;
  
         width: 215px;
@@ -163,8 +154,6 @@
     }
  
     main {
-        background-image: url("/assets/bezel.gif");
-
         background-size: 15%;
 
         padding: 10px;
@@ -370,8 +359,7 @@
 
     }
 
-    .containerbox {   
-        background-image: url("/assets/bezel.gif");
+    .containerbox {
 		height: 100%;
         border-bottom:3px solid #000000;
         overflow: hidden;
