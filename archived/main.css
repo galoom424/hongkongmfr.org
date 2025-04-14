@@ -60,7 +60,7 @@ body {
   /* you can delete the line below if you'd prefer to not use an image */
   background-size: 60px;
   color: #000000;
-  background-color: #f67300f2;
+  background-color: #f67300f3;
   background-size: 7%;
 }
 
@@ -173,7 +173,7 @@ you can add them directly to the <div id="header"></div> element! */
 
         border-right-width: 0px;
 
-        background-color: #f67300f2;
+        background-color: #f67300f3;
     }
 
 /* this is the color of the main content area,

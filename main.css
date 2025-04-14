@@ -32,7 +32,7 @@
  
         background-size: 75px;
  
-        color: #000000;
+        color: white;
     }
  
     li {
@@ -51,7 +51,7 @@
       }
 
     #container a {
-        color: #000000;
+        color: white;
     }
  
     #header {
@@ -93,7 +93,7 @@
  
     #navbar li a {
  
-        color: #000000;
+        color: white;
  
         font-weight: 800;
  
@@ -129,7 +129,7 @@
 
         border-right-width: 0px;
 
-        background-color: #f67300f2;
+        background-color: #f67300f3;
       }
  
     main {
@@ -147,11 +147,11 @@
  
         padding-bottom: 10px;
 
-        background-color: #f67300f2;
+        background-color: #f67300f3;
     }
  
     .argh {
-        background-color: #f2f2f2fc;   
+        background-color: #343434;   
 
         padding: 20px;
 
@@ -206,7 +206,7 @@
     h1,
     h2,
     h3 {
-      color: #000000;
+      color: white;
     }
  
     h1 {
@@ -214,7 +214,7 @@
     }
 
     strong {
-        color: #000000;
+        color: white;
     } 
 
     a:link, a:visited {
@@ -234,7 +234,7 @@
     }
 
     .box {
-        background-color: #f2f2f2fc;
+        background-color: #343434;
 
         border: 3px solid #000000;
 
@@ -250,7 +250,7 @@
     }
 
 	.boxLeft {
-        background-color: #f2f2f2fc;
+        background-color: #343434;
         
         border: 3px solid #000000;
         
@@ -278,7 +278,7 @@
     }
 
     .sideheader {
-        background-color: #f2f2f2fc;
+        background-color: #343434;
 
         border: 3px solid #000000;
 
@@ -286,7 +286,7 @@
     }
 
     .buttonheader {
-        background-color: #f2f2f2fc;
+        background-color: #343434;
 
         border-bottom: 0px;
 
@@ -296,7 +296,7 @@
     }
 
     .button {
-        background-color: #f2f2f2fc;
+        background-color: #343434;
 
         border: 3px solid #000000;
 
