@@ -130,7 +130,7 @@
  
     aside {
 
-        background-image: url("/assets/bezel.gif");
+        background-image: src="/assets/bezel.gif";
 
         background-size: 230%;
  
