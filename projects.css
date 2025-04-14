@@ -132,7 +132,7 @@
 
         background-image: url("/assets/bezel.gif");
 
-        background-size: 230%;
+        background-size: 15%;
  
         width: 280px;
 
@@ -149,7 +149,7 @@
 
         background-image: url("/assets/bezel.gif");
 
-        background-size: 230%;
+        background-size: 15%;
  
         width: 215px;
  
@@ -164,6 +164,8 @@
  
     main {
         background-image: url("/assets/bezel.gif");
+
+        background-size: 15%;
 
         padding: 10px;
  
